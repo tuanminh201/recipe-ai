@@ -1,0 +1,10 @@
+.page-title {
+    font-family: Georgia, serif;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    font-style: italic;
+}

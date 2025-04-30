@@ -1,0 +1,72 @@
+/* Wrapper toàn khối */
+.mainmenu-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    min-height: 100vh;
+    background-color: transparent;
+}
+
+/* Box trắng giữa trang */
+.mainmenu-box {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid black;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+/* Box nhỏ hiển thị nguyên liệu */
+.small-ingredients-box {
+    background-color: #f8f9fa;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+}
+
+/* Dấu xoá nguyên liệu */
+.delete-x {
+    cursor: pointer;
+    font-size: 1.25rem;
+    line-height: 1;
+    padding: 0 0.5rem;
+    transition: color 0.2s ease;
+}
+
+.delete-x:hover {
+    color: red;
+}
+
+/* Backdrop cho modal */
+.custom-modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mainmenu-layout {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.transition {
+    transition: all 0.5s ease;
+}
+
+.shift-left {
+    transform: translateX(-120px);
+}
+
+.recipe-box {
+    width: 400px;
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
